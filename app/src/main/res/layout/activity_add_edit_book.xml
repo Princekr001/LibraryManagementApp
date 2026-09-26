@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Add New Book"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title *" />
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book title"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Author" />
+        <EditText
+            android:id="@+id/etAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Author name"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="ISBN" />
+        <EditText
+            android:id="@+id/etIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ISBN number"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Total Copies *" />
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 5"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#1565C0"
+            android:text="Save Book"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Library Management"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Register" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddEditBookActivity"
+            android:exported="false"
+            android:label="Add / Edit Book" />
+
+    </application>
+
+</manifest>
